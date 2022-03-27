@@ -3,6 +3,7 @@
 apt-get update -y
 apt-get upgrade -y
 apt-get install nginx -y
+mkdir -p /data/
 mkdir -p /data/web_static
 mkdir -p /data/web_static/releases
 mkdir -p /data/web_static/shared
